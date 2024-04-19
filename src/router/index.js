@@ -7,6 +7,7 @@ import StudentInvolvementView from '@/views/StudentInvolvementView.vue'
 import EventsView from '@/views/EventsView.vue'
 import NewsView from '@/views/NewsView.vue'
 import ContactView from '@/views/ContactView.vue'
+import RoboticSolarTrackingSystemView from '@/views/Research/RoboticSolarTrackingSystemView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -25,6 +26,11 @@ const router = createRouter({
       path: '/research',
       name: 'research',
       component: ResearchView
+    },
+    {
+      path:'/research/roboticsolartrackingsystem',
+      name:'roboticsolartrackingsystem',
+      component: RoboticSolarTrackingSystemView
     },
     {
       path: '/studentinvolvement',

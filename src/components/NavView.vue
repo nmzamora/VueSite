@@ -20,21 +20,21 @@ import { RouterLink } from 'vue-router'
         data-bs-toggle="collapse"
         data-bs-target="#navbarNav"
         aria-controls="navbarNav"
-        aria-expanded="false"
+        aria-expanded="true"
         aria-label="Toggle navigation"
       >
         <span class="navbar-toggler-icon"></span>
       </button>
 
       <div class="collapse navbar-collapse" id="navbarNav">
-        <div class="navbar-nav">
+        <div class="navbar-nav align-items-center">
           <RouterLink class="nav-link mx-2" to="/about">About</RouterLink>
           <RouterLink class="nav-link mx-2" to="/research">Research</RouterLink>
           <RouterLink class="nav-link mx-2" to="/studentinvolvement"
             >Student Involvement</RouterLink
           >
           <RouterLink class="nav-link mx-2" to="/outreach">Outreach</RouterLink>
-          <RouterLink class="nav-link mx-2s" to="/events">Events</RouterLink>
+          <RouterLink class="nav-link mx-2" to="/events">Events</RouterLink>
           <RouterLink class="nav-link mx-2" to="/news">News</RouterLink>
           <RouterLink class="nav-link mx-2" to="/contact">Contact</RouterLink>
         </div>
@@ -55,9 +55,10 @@ import { RouterLink } from 'vue-router'
   text-align: center;
 }
 a {
-  color: #495a70;
+  color: #0c2340;
 }
 a:hover {
   color: #d3430d;
+  background-color: whitesmoke;
 }
 </style>
