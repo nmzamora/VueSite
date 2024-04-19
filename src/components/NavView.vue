@@ -5,7 +5,7 @@ import { RouterLink } from 'vue-router'
   <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="light">
     <div class="container-fluid">
       <a class="navbar-brand">
-        <RouterLink to="/home">
+        <RouterLink to="/">
           <img
             src="http://texasenergy.utsa.edu/images/site/header_logo.png"
             alt="Logo"
@@ -14,51 +14,34 @@ import { RouterLink } from 'vue-router'
           />
         </RouterLink>
       </a>
-
       <button
         class="navbar-toggler"
         type="button"
         data-bs-toggle="collapse"
-        data-bs-target="#navbarNavDropdown"
-        aria-controls="navbarNavDropdown"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <nav></nav>
-        <ul class="navbar-nav p-2 m-2">
-          <li class="nav-item">
-            <a class="nav-link"><RouterLink to="/about">About</RouterLink></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link"><RouterLink to="/research">Research</RouterLink></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link"
-              ><RouterLink to="/studentinvolvement">Student Involvement</RouterLink></a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link"><RouterLink to="/outreach">Outreach</RouterLink></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link"><RouterLink to="/events">Events</RouterLink></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link"><RouterLink to="/news">News</RouterLink></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link"><RouterLink to="/contact">Contact</RouterLink></a>
-          </li>
-        </ul>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="navbar-nav">
+          <RouterLink class="nav-link" to="/about">About</RouterLink>
+          <RouterLink class="nav-link" to="/research">Research</RouterLink>
+          <RouterLink class="nav-link" to="/studentinvolvement">Student Involvement</RouterLink>
+          <RouterLink class="nav-link" to="/outreach">Outreach</RouterLink>
+          <RouterLink class="nav-link" to="/events">Events</RouterLink>
+          <RouterLink class="nav-link" to="/news">News</RouterLink>
+          <RouterLink class="nav-link" to="/contact">Contact</RouterLink>
+        </div>
       </div>
     </div>
   </nav>
 </template>
 <style scoped>
-ul {
+.nav-link {
   font-size: 150%;
   font-weight: bold;
   justify-content: space-between;
