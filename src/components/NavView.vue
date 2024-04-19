@@ -2,7 +2,7 @@
 import { RouterLink } from 'vue-router'
 </script>
 <template>
-  <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="light">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top nav-style" data-bs-theme="light">
     <div class="container-fluid">
       <a class="navbar-brand">
         <RouterLink to="/">
@@ -28,21 +28,27 @@ import { RouterLink } from 'vue-router'
 
       <div class="collapse navbar-collapse" id="navbarNav">
         <div class="navbar-nav">
-          <RouterLink class="nav-link" to="/about">About</RouterLink>
-          <RouterLink class="nav-link" to="/research">Research</RouterLink>
-          <RouterLink class="nav-link" to="/studentinvolvement">Student Involvement</RouterLink>
-          <RouterLink class="nav-link" to="/outreach">Outreach</RouterLink>
-          <RouterLink class="nav-link" to="/events">Events</RouterLink>
-          <RouterLink class="nav-link" to="/news">News</RouterLink>
-          <RouterLink class="nav-link" to="/contact">Contact</RouterLink>
+          <RouterLink class="nav-link mx-2" to="/about">About</RouterLink>
+          <RouterLink class="nav-link mx-2" to="/research">Research</RouterLink>
+          <RouterLink class="nav-link mx-2" to="/studentinvolvement"
+            >Student Involvement</RouterLink
+          >
+          <RouterLink class="nav-link mx-2" to="/outreach">Outreach</RouterLink>
+          <RouterLink class="nav-link mx-2s" to="/events">Events</RouterLink>
+          <RouterLink class="nav-link mx-2" to="/news">News</RouterLink>
+          <RouterLink class="nav-link mx-2" to="/contact">Contact</RouterLink>
         </div>
       </div>
     </div>
   </nav>
 </template>
 <style scoped>
+.nav-style {
+  border-bottom: 4px solid #f15a22;
+  opacity: 95%;
+}
 .nav-link {
-  font-size: 150%;
+  font-size: 125%;
   font-weight: bold;
   justify-content: space-between;
   flex-direction: row !important;

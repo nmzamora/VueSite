@@ -4,7 +4,7 @@ import NavView from './components/NavView.vue'
 </script>
 
 <template>
-  <nav><NavView /></nav>
+  <NavView />
   <RouterView />
 </template>
 

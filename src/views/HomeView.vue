@@ -2,7 +2,7 @@
 
 <template>
   <body>
-    <div class="container mt-3" style="width: 80%">
+    <div class="container mt-2 mx-auto" style="width: 40%">
       <div id="carouselExampleCaptions" class="carousel slide">
         <div class="carousel-indicators">
           <button
@@ -146,6 +146,16 @@
             <h3><i class="bi bi-vinyl-fill"></i></h3>
             <h4>Text</h4>
           </div>
+        </div>
+      </div>
+    </div>
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-md">
+          <h3>Energy News</h3>
+        </div>
+        <div class="col-md">
+          <h3>Video</h3>
         </div>
       </div>
     </div>
