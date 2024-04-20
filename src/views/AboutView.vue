@@ -1,8 +1,10 @@
 <script setup>
 import BreadcrumbView from '@/components/BreadcrumbView.vue'
+import DropdownView from '@/components/SidebarView.vue'
+import { ref } from 'vue'
 </script>
 <template>
-  <div class="container mt-2 mb-5 col-8">
+  <div class="container mt-2 mb-5 interiorPage">
     <BreadcrumbView :items="breadcrumbItems" />
     <div class="row">
       <div class="col-md-8">
@@ -34,29 +36,28 @@ import BreadcrumbView from '@/components/BreadcrumbView.vue'
         </p>
       </div>
       <div class="col-md-2">
-        <ul class="dropdown-menu show">
-          <li>
-            <span class="dropdown-item-text" style="font-weight: bold">About the Institute</span>
-          </li>
-          <li><hr class="dropdown-divider" /></li>
-          <li>
-            <a class="dropdown-item" href="/About/LetterFromTheDirector"
-              >Letter from the Director</a
-            >
-          </li>
-        </ul>
+        <DropdownView :title="dropdownTitle" :items="dropdownItems" />
       </div>
     </div>
   </div>
 </template>
 <script>
+const breadcrumbItems = ref([{ label: 'About', to: '/about' }]) // Initialize with default breadcrumb
+const dropdownTitle = ref('About the Institute')
+const dropdownItems = ref([
+  { label: 'Letter from the Director', to: '/about/letterfromthedirector' }
+])
+
 export default {
   components: {
-    BreadcrumbView
+    BreadcrumbView,
+    DropdownView
   },
-  data() {
+  setup() {
     return {
-      breadcrumbItems: [{ label: 'About', to: '/about' }]
+      breadcrumbItems,
+      dropdownTitle,
+      dropdownItems
     }
   }
 }

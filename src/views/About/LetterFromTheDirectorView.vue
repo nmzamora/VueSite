@@ -4,7 +4,7 @@ import BreadcrumbView from '@/components/BreadcrumbView.vue'
 <template>
   <div class="container mt-2 mb-5 col-8">
     <BreadcrumbView :items="breadcrumbItems" />
-    <div class="row">
+    <div class="container row">
       <h2>A Letter from the Director</h2>
       <div class="col-md-2">
         <img
@@ -27,19 +27,6 @@ import BreadcrumbView from '@/components/BreadcrumbView.vue'
           life and standards of living of our local community.
         </p>
       </div>
-      <div class="col-md-2">
-        <ul class="dropdown-menu show">
-          <li>
-            <span class="dropdown-item-text" style="font-weight: bold">About the Institute</span>
-          </li>
-          <li><hr class="dropdown-divider" /></li>
-          <li>
-            <a class="dropdown-item" href="/About/LetterFromTheDirector"
-              >Letter from the Director</a
-            >
-          </li>
-        </ul>
-      </div>
     </div>
   </div>
 </template>
@@ -58,3 +45,4 @@ export default {
   }
 }
 </script>
+<style scoped></style>

@@ -1,6 +1,6 @@
 <template>
   <footer class="border-top footer-background-utsa">
-    <div class="container">
+    <div class="container footer-width">
       <footer class="py-5 footer-background-utsa">
         <div class="row">
           <div class="col-6 col-md-2 mb-3">
@@ -28,24 +28,27 @@
             <h5>Contact Us</h5>
             <ul class="nav flex-column">
               <li class="nav-item mb-1">
-                <a href="tel:2104587970" class="nav-link p-0 text-body">P: (210) 458-7970</a>
+                <a href="tel:2104587970" class="nav-link p-0 text-body"
+                  ><i class="bi bi-telephone-fill nav-bi"></i> (210) 458-7970</a
+                >
               </li>
               <li class="nav-item mb-1">
                 <a href="mailto:TexasEnergy@utsa.edu" class="nav-link p-0 text-body"
-                  >TexasEnergy@utsa.edu</a
+                  ><i class="bi bi-envelope-fill nav-bi"></i>TexasEnergy@utsa.edu</a
                 >
               </li>
               <li class="nav-item mb-1">
                 <hr />
                 <p class="p-0 text-body-secondary">
-                  Texas Sustainable Energy Research Institute<br />1 UTSA Circle<br />San Antonio,
-                  TX 78249
+                  <span class="text-decoration-underline"
+                    >Texas Sustainable Energy Research Institute</span
+                  ><br /><i class="bi bi-geo-alt-fill"></i>1 UTSA Circle, San Antonio, TX 78249
                 </p>
               </li>
             </ul>
           </div>
 
-          <div class="col-md-5 offset-md-2 mb-3">
+          <div class="col-md-6 offset-md-1 mb-3">
             <form>
               <h5>Subscribe to our newsletter</h5>
               <p>Monthly digest of what's new and exciting from us.</p>
@@ -90,6 +93,13 @@
   </footer>
 </template>
 <style scoped>
+.footer-width {
+  max-width: 1250px;
+}
+
+.nav-bi {
+  padding-right: 3px;
+}
 .nav-utsa {
   color: #0c2340;
 }

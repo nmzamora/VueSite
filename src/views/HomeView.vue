@@ -40,7 +40,7 @@
                 <p class="opacity-75">
                   TSERI meets with CPS Executives to discuss projects. Click here to see more.
                 </p>
-                <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
+                <p><a class="btn btn-lg btn-utsa" href="#">Sign up today</a></p>
               </div>
             </div>
           </div>
@@ -58,7 +58,7 @@
                   Supercritical Carbon Dioxide (sCO2) Power Generation for Renewable Energy
                   Extraction. Click here for more information.
                 </p>
-                <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+                <p><a class="btn btn-lg btn-utsa" href="#">Learn more</a></p>
               </div>
             </div>
           </div>
@@ -76,7 +76,7 @@
                   Development of Autonomous Soft Robotic Solar Tracking System. Click here for more
                   information.
                 </p>
-                <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+                <p><a class="btn btn-lg btn-utsa" href="#">Browse gallery</a></p>
               </div>
             </div>
           </div>
@@ -106,61 +106,61 @@
       <div class="row g-0">
         <div class="col">
           <div class="card">
-            <h3><i class="bi bi-vinyl-fill"></i></h3>
+            <i class="bi bi-vinyl-fill"></i>
             <h4>Text</h4>
           </div>
         </div>
         <div class="col">
           <div class="card">
-            <h3><i class="bi bi-vinyl-fill"></i></h3>
+            <i class="bi bi-vinyl-fill"></i>
             <h4>Text</h4>
           </div>
         </div>
         <div class="col">
           <div class="card">
-            <h3><i class="bi bi-vinyl-fill"></i></h3>
+            <i class="bi bi-vinyl-fill"></i>
             <h4>Text</h4>
           </div>
         </div>
         <div class="col">
           <div class="card">
-            <h3><i class="bi bi-vinyl-fill"></i></h3>
+            <i class="bi bi-vinyl-fill"></i>
             <h4>Text</h4>
           </div>
         </div>
         <div class="col">
           <div class="card">
-            <h3><i class="bi bi-vinyl-fill"></i></h3>
+            <i class="bi bi-vinyl-fill"></i>
             <h4>Text</h4>
           </div>
         </div>
         <div class="col">
           <div class="card">
-            <h3><i class="bi bi-vinyl-fill"></i></h3>
+            <i class="bi bi-vinyl-fill"></i>
             <h4>Text</h4>
           </div>
         </div>
         <div class="col">
           <div class="card">
-            <h3><i class="bi bi-vinyl-fill"></i></h3>
+            <i class="bi bi-vinyl-fill"></i>
             <h4>Text</h4>
           </div>
         </div>
         <div class="col">
           <div class="card">
-            <h3><i class="bi bi-vinyl-fill"></i></h3>
+            <i class="bi bi-vinyl-fill"></i>
             <h4>Text</h4>
           </div>
         </div>
         <div class="col">
           <div class="card">
-            <h3><i class="bi bi-vinyl-fill"></i></h3>
+            <i class="bi bi-vinyl-fill"></i>
             <h4>Text</h4>
           </div>
         </div>
         <div class="col">
           <div class="card">
-            <h3><i class="bi bi-vinyl-fill"></i></h3>
+            <i class="bi bi-vinyl-fill"></i>
             <h4>Text</h4>
           </div>
         </div>
@@ -181,6 +181,10 @@
 </template>
 
 <style scoped>
+.btn-utsa {
+  background-color: #0c2340;
+  color: white;
+}
 hr {
   border-width: 3px;
   width: 75%;
