@@ -101,67 +101,64 @@
         </button>
       </div>
     </section>
-    <div class="container">
-      <h2>Research Focus</h2>
-      <div class="row g-0">
-        <div class="col">
-          <div class="card">
-            <i class="fa-solid fa-industry fa-3x py-3"></i>
-            <h4>Text</h4>
+    <div class="container px-4 py-5" id="icon-grid">
+      <h2 class="pb-2 border-bottom">Icon grid</h2>
+
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
+        <div class="col d-flex align-items-start">
+          <i class="fa-solid fa-microchip fa-3x px-3"></i>
+          <div>
+            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Featured title</h3>
+            <p>Paragraph of text beneath the heading to explain the heading.</p>
           </div>
         </div>
-        <div class="col">
-          <div class="card">
-            <i class="fa-solid fa-leaf fa-3x py-3"></i>
-            <h4>Text</h4>
+        <div class="col d-flex align-items-start">
+          <i class="fa-solid fa-calendar-days fa-3x px-3"></i>
+          <div>
+            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Featured title</h3>
+            <p>Paragraph of text beneath the heading to explain the heading.</p>
           </div>
         </div>
-        <div class="col">
-          <div class="card">
-            <i class="fa-solid fa-lightbulb fa-3x py-3"></i>
-            <h4>Text</h4>
+        <div class="col d-flex align-items-start">
+          <i class="fa-solid fa-calendar-days fa-3x px-3"></i>
+          <div>
+            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Featured title</h3>
+            <p>Paragraph of text beneath the heading to explain the heading.</p>
           </div>
         </div>
-        <div class="col">
-          <div class="card">
-            <i class="fa-solid fa-droplet fa-3x py-3"></i>
-            <h4>Text</h4>
+        <div class="col d-flex align-items-start">
+          <i class="fa-solid fa-calendar-days fa-3x px-3"></i>
+          <div>
+            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Featured title</h3>
+            <p>Paragraph of text beneath the heading to explain the heading.</p>
           </div>
         </div>
-        <div class="col">
-          <div class="card">
-            <i class="fa-solid fa-wind fa-3x py-3"></i>
-            <h4>Text</h4>
+        <div class="col d-flex align-items-start">
+          <i class="fa-solid fa-calendar-days fa-3x px-3"></i>
+          <div>
+            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Featured title</h3>
+            <p>Paragraph of text beneath the heading to explain the heading.</p>
           </div>
         </div>
-        <div class="col">
-          <div class="card">
-            <i class="fa-solid fa-car-battery fa-3x py-3"></i>
-            <h4>Text</h4>
+        <div class="col d-flex align-items-start">
+          <i class="fa-solid fa-calendar-days fa-3x px-3"></i>
+          <div>
+            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Featured title</h3>
+            <p>Paragraph of text beneath the heading to explain the heading.</p>
           </div>
         </div>
-        <div class="col">
-          <div class="card">
-            <i class="fa-solid fa-solar-panel fa-3x py-3"></i>
-            <h4>Text</h4>
+        <div class="col d-flex align-items-start">
+          <i class="fa-solid fa-calendar-days fa-3x px-3"></i>
+          <div>
+            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Featured title</h3>
+            <p>Paragraph of text beneath the heading to explain the heading.</p>
           </div>
         </div>
-        <div class="col">
-          <div class="card">
-            <i class="fa-solid fa-briefcase fa-3x py-3"></i>
-            <h4>Text</h4>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card">
-            <i class="fa-solid fa-user-graduate fa-3x py-3"></i>
-            <h4>Text</h4>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card">
-            <i class="fa-solid fa-sun fa-3x py-3"></i>
-            <h4>Text</h4>
+        <div class="col d-flex align-items-start">
+          <i class="fa-solid fa-calendar-days fa-3x px-3"></i>
+          <div>
+            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Featured title</h3>
+            <p>Paragraph of text beneath the heading to explain the heading.</p>
           </div>
         </div>
       </div>
