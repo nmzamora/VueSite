@@ -106,61 +106,61 @@
       <div class="row g-0">
         <div class="col">
           <div class="card">
-            <i class="bi bi-vinyl-fill"></i>
+            <i class="fa-solid fa-industry fa-3x py-3"></i>
             <h4>Text</h4>
           </div>
         </div>
         <div class="col">
           <div class="card">
-            <i class="bi bi-vinyl-fill"></i>
+            <i class="fa-solid fa-leaf fa-3x py-3"></i>
             <h4>Text</h4>
           </div>
         </div>
         <div class="col">
           <div class="card">
-            <i class="bi bi-vinyl-fill"></i>
+            <i class="fa-solid fa-lightbulb fa-3x py-3"></i>
             <h4>Text</h4>
           </div>
         </div>
         <div class="col">
           <div class="card">
-            <i class="bi bi-vinyl-fill"></i>
+            <i class="fa-solid fa-droplet fa-3x py-3"></i>
             <h4>Text</h4>
           </div>
         </div>
         <div class="col">
           <div class="card">
-            <i class="bi bi-vinyl-fill"></i>
+            <i class="fa-solid fa-wind fa-3x py-3"></i>
             <h4>Text</h4>
           </div>
         </div>
         <div class="col">
           <div class="card">
-            <i class="bi bi-vinyl-fill"></i>
+            <i class="fa-solid fa-car-battery fa-3x py-3"></i>
             <h4>Text</h4>
           </div>
         </div>
         <div class="col">
           <div class="card">
-            <i class="bi bi-vinyl-fill"></i>
+            <i class="fa-solid fa-solar-panel fa-3x py-3"></i>
             <h4>Text</h4>
           </div>
         </div>
         <div class="col">
           <div class="card">
-            <i class="bi bi-vinyl-fill"></i>
+            <i class="fa-solid fa-briefcase fa-3x py-3"></i>
             <h4>Text</h4>
           </div>
         </div>
         <div class="col">
           <div class="card">
-            <i class="bi bi-vinyl-fill"></i>
+            <i class="fa-solid fa-user-graduate fa-3x py-3"></i>
             <h4>Text</h4>
           </div>
         </div>
         <div class="col">
           <div class="card">
-            <i class="bi bi-vinyl-fill"></i>
+            <i class="fa-solid fa-sun fa-3x py-3"></i>
             <h4>Text</h4>
           </div>
         </div>
@@ -189,9 +189,7 @@ hr {
   border-width: 3px;
   width: 75%;
 }
-i {
-  font-size: 200%;
-}
+
 .carousel-header {
   object-fit: cover;
   width: 100%;
