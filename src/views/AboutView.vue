@@ -1,32 +1,63 @@
+<script setup>
+import BreadcrumbView from '@/components/BreadcrumbView.vue'
+</script>
 <template>
-  <div class="container">
-    <h2>About Us</h2>
-    <p>
-      The University of Texas at San Antonio created the Texas Sustainable Energy Research Institute
-      to partner with our community and contribute to a new energy future that builds on a diverse
-      resource base to position San Antonio as a significant contributor to the 21st century global
-      energy economy.
-    </p>
-    <p>
-      The Institute integrates scientific discovery, engineering innovation and policy deliberations
-      with pragmatic implementation and a commitment to our multicultural traditions to realize the
-      promise of tomorrow’s America as a global energy leader. The Institute also serves as a center
-      of intellectual creativity that promotes socioeconomic development regionally, nationally and
-      globally.
-    </p>
-    <p>
-      We provide systems solutions that pursue novel opportunities for technology insertion to
-      reduce costs, improve reliability and assure responsible environmental stewardship that
-      contributes to our energy future. Our impact will drive San Antonio’s economic future,
-      coalesce our intellectual capital, serve as a magnet for thought leaders from around the globe
-      and help secure a foundation for enhanced prosperity for south Texas and the Alamo region for
-      decades to come.
-    </p>
-    <p>
-      Visit our Contact page to learn more about our team, or see the Research page to find more
-      about our key research contributions.
-    </p>
+  <div class="container mt-2 mb-5 col-8">
+    <BreadcrumbView :items="breadcrumbItems" />
+    <div class="row">
+      <div class="col-md-8">
+        <h2>About Us</h2>
+        <p>
+          The University of Texas at San Antonio created the Texas Sustainable Energy Research
+          Institute to partner with our community and contribute to a new energy future that builds
+          on a diverse resource base to position San Antonio as a significant contributor to the
+          21st century global energy economy.
+        </p>
+        <p>
+          The Institute integrates scientific discovery, engineering innovation and policy
+          deliberations with pragmatic implementation and a commitment to our multicultural
+          traditions to realize the promise of tomorrow’s America as a global energy leader. The
+          Institute also serves as a center of intellectual creativity that promotes socioeconomic
+          development regionally, nationally and globally.
+        </p>
+        <p>
+          We provide systems solutions that pursue novel opportunities for technology insertion to
+          reduce costs, improve reliability and assure responsible environmental stewardship that
+          contributes to our energy future. Our impact will drive San Antonio’s economic future,
+          coalesce our intellectual capital, serve as a magnet for thought leaders from around the
+          globe and help secure a foundation for enhanced prosperity for south Texas and the Alamo
+          region for decades to come.
+        </p>
+        <p>
+          Visit our Contact page to learn more about our team, or see the Research page to find more
+          about our key research contributions.
+        </p>
+      </div>
+      <div class="col-md-2">
+        <ul class="dropdown-menu show">
+          <li>
+            <span class="dropdown-item-text" style="font-weight: bold">About the Institute</span>
+          </li>
+          <li><hr class="dropdown-divider" /></li>
+          <li>
+            <a class="dropdown-item" href="/About/LetterFromTheDirector"
+              >Letter from the Director</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
   </div>
 </template>
-
-<style></style>
+<script>
+export default {
+  components: {
+    BreadcrumbView
+  },
+  data() {
+    return {
+      breadcrumbItems: [{ label: 'About', to: '/about' }]
+    }
+  }
+}
+</script>

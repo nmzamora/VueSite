@@ -8,6 +8,7 @@ import EventsView from '@/views/EventsView.vue'
 import NewsView from '@/views/NewsView.vue'
 import ContactView from '@/views/ContactView.vue'
 import RoboticSolarTrackingSystemView from '@/views/Research/RoboticSolarTrackingSystemView.vue'
+import LetterFromTheDirectorView from '@/views/About/LetterFromTheDirectorView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -23,13 +24,18 @@ const router = createRouter({
       component: AboutView
     },
     {
+      path: '/about/letterfromthedirector',
+      name: 'letterfromthedirector',
+      component: LetterFromTheDirectorView
+    },
+    {
       path: '/research',
       name: 'research',
       component: ResearchView
     },
     {
-      path:'/research/roboticsolartrackingsystem',
-      name:'roboticsolartrackingsystem',
+      path: '/research/roboticsolartrackingsystem',
+      name: 'roboticsolartrackingsystem',
       component: RoboticSolarTrackingSystemView
     },
     {
