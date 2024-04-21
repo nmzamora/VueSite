@@ -100,63 +100,60 @@
       </button>
     </div>
     <div class="container" id="icon-grid">
-      <h2 class="pb-2 border-bottom">Icon grid</h2>
-
-      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
-        <div class="col d-flex align-items-start">
-          <i class="fa-solid fa-microchip fa-3x px-3"></i>
+      <h2 class="pb-2 border-bottom">Research Topics</h2>
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-4 row-icon-grid g-1 py-3">
+        <div class="col d-flex align-items-center">
+          <i class="fa-solid fa-industry fa-3x px-3"></i>
           <div>
-            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Featured title</h3>
-            <p>Paragraph of text beneath the heading to explain the heading.</p>
+            <h5 class="fw-semibold mb-0">
+              <a class="a-utsa" href="https://www.google.com">Carbon Capture & Reutilization</a>
+            </h5>
           </div>
         </div>
-        <div class="col d-flex align-items-start">
-          <i class="fa-solid fa-calendar-days fa-3x px-3"></i>
+        <div class="col d-flex align-items-center">
+          <i class="fa-solid fa-bolt fa-3x px-3"></i>
           <div>
-            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Featured title</h3>
-            <p>Paragraph of text beneath the heading to explain the heading.</p>
+            <h5 class="fw-light mb-0 text-body-emphasis">
+              Electrification of Public Transportation
+            </h5>
           </div>
         </div>
-        <div class="col d-flex align-items-start">
-          <i class="fa-solid fa-calendar-days fa-3x px-3"></i>
+        <div class="col d-flex align-items-center">
+          <i class="fa-solid fa-lightbulb fa-3x px-3"></i>
           <div>
-            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Featured title</h3>
-            <p>Paragraph of text beneath the heading to explain the heading.</p>
+            <h5 class="fw-light mb-0 text-body-emphasis">Energy Efficiency & Conservation</h5>
           </div>
         </div>
-        <div class="col d-flex align-items-start">
-          <i class="fa-solid fa-calendar-days fa-3x px-3"></i>
+        <div class="col d-flex align-items-center">
+          <i class="fa-solid fa-droplet fa-3x px-3"></i>
           <div>
-            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Featured title</h3>
-            <p>Paragraph of text beneath the heading to explain the heading.</p>
+            <h5 class="fw-light mb-0 text-body-emphasis">Energy-Water News</h5>
           </div>
         </div>
-        <div class="col d-flex align-items-start">
-          <i class="fa-solid fa-calendar-days fa-3x px-3"></i>
+      </div>
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-4 row-icon-grid g-1 py-3">
+        <div class="col d-flex align-items-center">
+          <i class="fa-solid fa-wind fa-3x px-3"></i>
           <div>
-            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Featured title</h3>
-            <p>Paragraph of text beneath the heading to explain the heading.</p>
+            <h5 class="fw-light mb-0 text-body-emphasis">Wind Energy</h5>
           </div>
         </div>
-        <div class="col d-flex align-items-start">
-          <i class="fa-solid fa-calendar-days fa-3x px-3"></i>
+        <div class="col d-flex align-items-center">
+          <i class="fa-solid fa-car-battery fa-3x px-3"></i>
           <div>
-            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Featured title</h3>
-            <p>Paragraph of text beneath the heading to explain the heading.</p>
+            <h5 class="fw-light mb-0 text-body-emphasis">Renewable Energy Storage</h5>
           </div>
         </div>
-        <div class="col d-flex align-items-start">
-          <i class="fa-solid fa-calendar-days fa-3x px-3"></i>
+        <div class="col d-flex align-items-center">
+          <i class="fa-solid fa-solar-panel fa-3x px-3"></i>
           <div>
-            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Featured title</h3>
-            <p>Paragraph of text beneath the heading to explain the heading.</p>
+            <h5 class="fw-light mb-0 text-body-emphasis">Smart Grid</h5>
           </div>
         </div>
-        <div class="col d-flex align-items-start">
-          <i class="fa-solid fa-calendar-days fa-3x px-3"></i>
+        <div class="col d-flex align-items-center">
+          <i class="fa-solid fa-sun fa-3x px-3"></i>
           <div>
-            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Featured title</h3>
-            <p>Paragraph of text beneath the heading to explain the heading.</p>
+            <h5 class="fw-light mb-0 text-body-emphasis">San Antonio Clean Energy</h5>
           </div>
         </div>
       </div>
@@ -181,7 +178,7 @@
               <div class="d-flex gap-2 w-100 justify-content-between">
                 <div>
                   <h6 class="mb-0">ARPA-E Technology-to-Market Scholars Program</h6>
-                  <p class="mb-0 opacity-75">Some placeholder content in a paragraph.</p>
+                  <p class="mb-0 opacity-75">Read more...</p>
                 </div>
                 <small class="opacity-50 text-nowrap">1y</small>
               </div>
@@ -204,7 +201,7 @@
                     Congratulations to Teams Dart Energy and ECE for Winning the Spring 2019 Senior
                     Design I Competitio
                   </h6>
-                  <p class="mb-0 opacity-75">Text</p>
+                  <p class="mb-0 opacity-75">Read more...</p>
                 </div>
                 <small class="opacity-50 text-nowrap">1y</small>
               </div>
@@ -226,7 +223,27 @@
                   <h6 class="mb-0">
                     Congratulations TSERI Student Amanda Hydar On Becoming a MS in AMEE!
                   </h6>
-                  <p class="mb-0 opacity-75">Some placeholder content in a paragraph.</p>
+                  <p class="mb-0 opacity-75">Read more...</p>
+                </div>
+                <small class="opacity-50 text-nowrap">1y</small>
+              </div>
+            </a>
+            <a
+              href="#"
+              class="list-group-item list-group-item-action d-flex gap-3 py-3"
+              aria-current="true"
+            >
+              <img
+                src="http://texasenergy.utsa.edu/images/made/images/site/icon_60_60_s_c1.png"
+                alt="twbs"
+                width="32"
+                height="32"
+                class="rounded-circle flex-shrink-0"
+              />
+              <div class="d-flex gap-2 w-100 justify-content-between">
+                <div>
+                  <h6 class="mb-0">ARPA-E Technology-to-Market Scholars Program</h6>
+                  <p class="mb-0 opacity-75">Read more...</p>
                 </div>
                 <small class="opacity-50 text-nowrap">1y</small>
               </div>
@@ -235,16 +252,19 @@
         </div>
         <div class="col-md">
           <h3>Video</h3>
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/fVmvpUThdqg?si=hvq0RByPH8f1l7IR"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allowfullscreen
-          ></iframe>
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe
+              class="embeded-responsive-item"
+              width="600"
+              height="340"
+              src="https://www.youtube.com/embed/fVmvpUThdqg?si=hvq0RByPH8f1l7IR"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </div>
         </div>
       </div>
     </div>
@@ -252,6 +272,12 @@
 </template>
 
 <style scoped>
+.row-icon-grid {
+  background-color: whitesmoke;
+}
+.a-utsa {
+  color: #d3430d;
+}
 .btn-utsa {
   background-color: #0c2340;
   color: white;
