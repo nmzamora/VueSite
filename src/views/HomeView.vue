@@ -100,8 +100,10 @@
       </button>
     </div>
     <div class="container" id="icon-grid">
-      <h2 class="pb-2 border-bottom">Research Topics</h2>
-      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-4 row-icon-grid g-1 py-3">
+      <h2 class="pb-2 border-bottom mt-1">Research Topics</h2>
+      <div
+        class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-4 row-icon-grid g-1 py-3 rounded-top"
+      >
         <div class="col d-flex align-items-center">
           <i class="fa-solid fa-industry fa-3x px-3"></i>
           <div>
@@ -131,7 +133,9 @@
           </div>
         </div>
       </div>
-      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-4 row-icon-grid g-1 py-3">
+      <div
+        class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-4 row-icon-grid g-1 py-3 rounded-bottom"
+      >
         <div class="col d-flex align-items-center">
           <i class="fa-solid fa-wind fa-3x px-3"></i>
           <div>
