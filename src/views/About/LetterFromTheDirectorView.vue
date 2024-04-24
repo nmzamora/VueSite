@@ -1,10 +1,13 @@
 <script setup>
 import BreadcrumbView from '@/components/BreadcrumbView.vue'
+import SidebarView from '@/components/SidebarView.vue'
+import { ref } from 'vue'
 </script>
 <template>
-  <div class="container mt-2 mb-5 col-8">
+  <div class="container mt-2 mb-5">
     <BreadcrumbView :items="breadcrumbItems" />
-    <div class="container row">
+    <!-- Breadcrumb View ] -->
+    <div class="row">
       <h2>A Letter from the Director</h2>
       <div class="col-md-2">
         <img
@@ -13,7 +16,7 @@ import BreadcrumbView from '@/components/BreadcrumbView.vue'
           src="http://texasenergy.utsa.edu/images/uploads/Dr.Castillo_letter.jpg"
         />
       </div>
-      <div class="col-md-8">
+      <div class="col-md-6">
         <p>
           Welcome to the UTSA Texas Sustainable Energy Research Institute. The Institute was founded
           in 2010 with the objective of creating transformative leaders capable of developing
@@ -27,20 +30,29 @@ import BreadcrumbView from '@/components/BreadcrumbView.vue'
           life and standards of living of our local community.
         </p>
       </div>
+      <div class="col-md-2">
+        <SidebarView :title="dropdownTitle" :items="breadcrumbItems" />
+      </div>
     </div>
   </div>
 </template>
 <script>
+const breadcrumbItems = ref([{ label: 'About', to: '/about' }]) // Initialize with default breadcrumb
+const dropdownTitle = ref('About the Institute')
+const dropdownItems = ref([
+  { label: 'Letter from the Director', to: '/about/letterfromthedirector' }
+])
+
 export default {
   components: {
-    BreadcrumbView
+    BreadcrumbView,
+    SidebarView
   },
-  data() {
+  setup() {
     return {
-      breadcrumbItems: [
-        { label: 'About', to: '/about' },
-        { label: 'Letter from the Director', to: '/about/letterfromthedirector' }
-      ]
+      breadcrumbItems,
+      dropdownTitle,
+      dropdownItems
     }
   }
 }

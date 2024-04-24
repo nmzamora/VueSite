@@ -1,14 +1,14 @@
 <script setup>
 import BreadcrumbView from '@/components/BreadcrumbView.vue'
-import DropdownView from '@/components/SidebarView.vue'
+import SidebarView from '@/components/SidebarView.vue'
 import { ref } from 'vue'
 </script>
 <template>
-  <div class="container mt-2 mb-5 interiorPage">
+  <div class="container mt-2 mb-5">
     <BreadcrumbView :items="breadcrumbItems" />
     <div class="row">
+      <h2>About Us</h2>
       <div class="col-md-8">
-        <h2>About Us</h2>
         <p>
           The University of Texas at San Antonio created the Texas Sustainable Energy Research
           Institute to partner with our community and contribute to a new energy future that builds
@@ -36,28 +36,28 @@ import { ref } from 'vue'
         </p>
       </div>
       <div class="col-md-2">
-        <DropdownView :title="dropdownTitle" :items="dropdownItems" />
+        <SidebarView :title="sidebarTitle" :items="sidebarItems" />
       </div>
     </div>
   </div>
 </template>
 <script>
 const breadcrumbItems = ref([{ label: 'About', to: '/about' }]) // Initialize with default breadcrumb
-const dropdownTitle = ref('About the Institute')
-const dropdownItems = ref([
+const sidebarTitle = ref('About the Institute')
+const sidebarItems = ref([
   { label: 'Letter from the Director', to: '/about/letterfromthedirector' }
 ])
 
 export default {
   components: {
     BreadcrumbView,
-    DropdownView
+    SidebarView
   },
   setup() {
     return {
       breadcrumbItems,
-      dropdownTitle,
-      dropdownItems
+      sidebarTitle,
+      sidebarItems
     }
   }
 }

@@ -1,7 +1,7 @@
 <template>
   <footer class="border-top footer-background-utsa">
     <div class="container footer-width">
-      <footer class="py-5 footer-background-utsa">
+      <footer class="py-3 footer-background-utsa">
         <div class="row">
           <div class="col-6 col-md-2 mb-3">
             <h5>Quick Links</h5>
@@ -66,7 +66,7 @@
           </div>
         </div>
 
-        <div class="d-flex flex-column flex-sm-row justify-content-between pt-4 mt-4 border-top">
+        <div class="d-flex flex-column flex-sm-row justify-content-between pt-2 mt-2 border-top">
           <p>&copy; 2024 Nicholas Zamora, Inc. All rights reserved.</p>
           <ul class="list-unstyled d-flex">
             <li class="ms-3">

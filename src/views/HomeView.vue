@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-  <body>
+  <div class="container">
     <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
       <div class="carousel-indicators">
         <button
@@ -184,7 +184,7 @@
                   <h6 class="mb-0">ARPA-E Technology-to-Market Scholars Program</h6>
                   <p class="mb-0 opacity-75 text-muted">Read more...</p>
                 </div>
-                <small class="opacity-50 text-nowrap">1y</small>
+                <small class="opacity-50 text-nowrap text-muted">1y</small>
               </div>
             </a>
             <a
@@ -207,7 +207,7 @@
                   </h6>
                   <p class="mb-0 opacity-75 text-muted">Read more...</p>
                 </div>
-                <small class="opacity-50 text-nowrap">1y</small>
+                <small class="opacity-50 text-nowrap text-muted">1y</small>
               </div>
             </a>
             <a
@@ -229,12 +229,12 @@
                   </h6>
                   <p class="mb-0 opacity-75 text-muted">Read more...</p>
                 </div>
-                <small class="opacity-50 text-nowrap">1y</small>
+                <small class="opacity-50 text-nowrap text-muted">1y</small>
               </div>
             </a>
             <a
               href="#"
-              class="list-group-item list-group-item-action d-flex gap-3 py-3"
+              class="list-group-item list-group-item-action d-flex gap-3 py-3 a-utsa"
               aria-current="true"
             >
               <img
@@ -247,9 +247,9 @@
               <div class="d-flex gap-2 w-100 justify-content-between">
                 <div>
                   <h6 class="mb-0">ARPA-E Technology-to-Market Scholars Program</h6>
-                  <p class="mb-0 opacity-75">Read more...</p>
+                  <p class="mb-0 opacity-75 text-muted">Read more...</p>
                 </div>
-                <small class="opacity-50 text-nowrap">1y</small>
+                <small class="opacity-50 text-nowrap text-muted">1y</small>
               </div>
             </a>
           </div>
@@ -272,7 +272,7 @@
         </div>
       </div>
     </div>
-  </body>
+  </div>
 </template>
 
 <style scoped>
