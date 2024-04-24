@@ -31,16 +31,20 @@ import { ref } from 'vue'
         </p>
       </div>
       <div class="col-md-2">
-        <SidebarView :title="dropdownTitle" :items="breadcrumbItems" />
+        <SidebarView :title="sidebarTitle" :items="sidebarItems" />
       </div>
     </div>
   </div>
 </template>
 <script>
 const breadcrumbItems = ref([{ label: 'About', to: '/about' }]) // Initialize with default breadcrumb
-const dropdownTitle = ref('About the Institute')
-const dropdownItems = ref([
-  { label: 'Letter from the Director', to: '/about/letterfromthedirector' }
+const sidebarTitle = ref('About the Institute')
+const sidebarItems = ref([
+  { label: 'About', to: '/about/' },
+  {
+    label: 'Letter from the Director',
+    to: '/about/letterfromthedirector'
+  }
 ])
 
 export default {
@@ -51,8 +55,8 @@ export default {
   setup() {
     return {
       breadcrumbItems,
-      dropdownTitle,
-      dropdownItems
+      sidebarTitle,
+      sidebarItems
     }
   }
 }
