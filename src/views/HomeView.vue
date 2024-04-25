@@ -1,104 +1,105 @@
-<script setup></script>
+<script setup>
+</script>
 
 <template>
-  <div class="container">
-    <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
-      <div class="carousel-indicators">
-        <button
-          type="button"
-          data-bs-target="#myCarousel"
-          data-bs-slide-to="0"
-          class="active"
-          aria-current="true"
-          aria-label="Slide 1"
-        ></button>
-        <button
-          type="button"
-          data-bs-target="#myCarousel"
-          data-bs-slide-to="1"
-          aria-label="Slide 2"
-        ></button>
-        <button
-          type="button"
-          data-bs-target="#myCarousel"
-          data-bs-slide-to="2"
-          aria-label="Slide 3"
-        ></button>
-      </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img
-            class="img-fluid carousel-header"
-            src="https://images.pexels.com/photos/289927/pexels-photo-289927.jpeg"
-            aria-hidden="true"
-            focusable="false"
-          />
-          <div class="container">
-            <div class="carousel-caption text">
-              <h1>Welcome CPS Energy.</h1>
-              <p class="opacity-75">
-                TSERI meets with CPS Executives to discuss projects. Click here to see more.
-              </p>
-              <p><a class="btn btn-lg btn-utsa" href="#">Sign up today</a></p>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img
-            class="img-fluid carousel-header"
-            src="https://images.pexels.com/photos/270557/pexels-photo-270557.jpeg"
-            aria-hidden="true"
-            focusable="false"
-          />
-          <div class="container">
-            <div class="carousel-caption text">
-              <h1>SCO2 Power Generation</h1>
-              <p>
-                Supercritical Carbon Dioxide (sCO2) Power Generation for Renewable Energy
-                Extraction. Click here for more information.
-              </p>
-              <p><a class="btn btn-lg btn-utsa" href="#">Learn more</a></p>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img
-            class="img-fluid carousel-header"
-            src="https://images.pexels.com/photos/60504/security-protection-anti-virus-software-60504.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-            aria-hidden="true"
-            focusable="false"
-          />
-          <div class="container">
-            <div class="carousel-caption text">
-              <h1>Robotic Solar Tracking System</h1>
-              <p>
-                Development of Autonomous Soft Robotic Solar Tracking System. Click here for more
-                information.
-              </p>
-              <p><a class="btn btn-lg btn-utsa" href="#">Browse gallery</a></p>
-            </div>
-          </div>
-        </div>
-      </div>
+  <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+    <div class="carousel-indicators">
       <button
-        class="carousel-control-prev"
         type="button"
         data-bs-target="#myCarousel"
-        data-bs-slide="prev"
-      >
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
+        data-bs-slide-to="0"
+        class="active"
+        aria-current="true"
+        aria-label="Slide 1"
+      ></button>
       <button
-        class="carousel-control-next"
         type="button"
         data-bs-target="#myCarousel"
-        data-bs-slide="next"
-      >
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
+        data-bs-slide-to="1"
+        aria-label="Slide 2"
+      ></button>
+      <button
+        type="button"
+        data-bs-target="#myCarousel"
+        data-bs-slide-to="2"
+        aria-label="Slide 3"
+      ></button>
     </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img
+          class="img-fluid carousel-header"
+          src="https://images.pexels.com/photos/289927/pexels-photo-289927.jpeg"
+          aria-hidden="true"
+          focusable="false"
+        />
+        <div class="container">
+          <div class="carousel-caption text">
+            <h1>Welcome CPS Energy.</h1>
+            <p class="opacity-75">
+              TSERI meets with CPS Executives to discuss projects. Click here to see more.
+            </p>
+            <p><a class="btn btn-lg btn-utsa" href="#">Sign up today</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img
+          class="img-fluid carousel-header"
+          src="https://images.pexels.com/photos/270557/pexels-photo-270557.jpeg"
+          aria-hidden="true"
+          focusable="false"
+        />
+        <div class="container">
+          <div class="carousel-caption text">
+            <h1>SCO2 Power Generation</h1>
+            <p>
+              Supercritical Carbon Dioxide (sCO2) Power Generation for Renewable Energy
+              Extraction. Click here for more information.
+            </p>
+            <p><a class="btn btn-lg btn-utsa" href="#">Learn more</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img
+          class="img-fluid carousel-header"
+          src="https://images.pexels.com/photos/60504/security-protection-anti-virus-software-60504.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          aria-hidden="true"
+          focusable="false"
+        />
+        <div class="container">
+          <div class="carousel-caption text">
+            <h1>Robotic Solar Tracking System</h1>
+            <p>
+              Development of Autonomous Soft Robotic Solar Tracking System. Click here for more
+              information.
+            </p>
+            <p><a class="btn btn-lg btn-utsa" href="#">Browse gallery</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button
+      class="carousel-control-prev"
+      type="button"
+      data-bs-target="#myCarousel"
+      data-bs-slide="prev"
+    >
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button
+      class="carousel-control-next"
+      type="button"
+      data-bs-target="#myCarousel"
+      data-bs-slide="next"
+    >
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <div class="container">
     <div class="container" id="icon-grid">
       <h2 class="pb-2 border-bottom mt-1">Research Topics</h2>
       <div
@@ -258,9 +259,9 @@
           <h3>Video</h3>
           <div class="embed-responsive embed-responsive-16by9">
             <iframe
-              class="embeded-responsive-item"
-              width="600"
-              height="340"
+              class="embed-responsive-item"
+              width="100%"
+              height="350px"
               src="https://www.youtube.com/embed/fVmvpUThdqg?si=hvq0RByPH8f1l7IR"
               title="YouTube video player"
               frameborder="0"

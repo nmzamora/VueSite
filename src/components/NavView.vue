@@ -3,7 +3,7 @@ import { RouterLink } from 'vue-router'
 </script>
 <template>
   <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top nav-style" data-bs-theme="light">
-    <div class="container-fluid">
+    <div class="container-fluid flex-nowrap">
       <a class="navbar-brand">
         <RouterLink to="/">
           <img
