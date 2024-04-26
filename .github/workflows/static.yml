@@ -11,4 +11,4 @@ jobs:
       with:
         username: 'nmzamora'
         reponame: 'VueSite'
-        token: ${{ secrets.GH_PAT}} # Leave this line unchanged
+        token: ${{ secrets.GITHUB_TOKEN}} # Leave this line unchanged
