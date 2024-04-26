@@ -1,6 +1,6 @@
 <template>
   <div class="container px-5 mt-2 mb-4">
-    <div class="d-flex align-items-start card container flex-row g-0 w-50 mx-auto">
+    <div class="d-flex align-items-start card container flex-row g-0 w-50 mx-auto shadow-sm border">
       <div
         class="nav flex-column nav-pills me-3 card-header"
         id="v-pills-tab"
@@ -17,7 +17,7 @@
           aria-controls="v-pills-home"
           aria-selected="true"
         >
-          Home
+          Description
         </button>
         <button
           class="nav-link"
@@ -29,7 +29,7 @@
           aria-controls="v-pills-profile"
           aria-selected="false"
         >
-          Profile
+          Resources
         </button>
         <button
           class="nav-link"
@@ -41,19 +41,7 @@
           aria-controls="v-pills-messages"
           aria-selected="false"
         >
-          Messages
-        </button>
-        <button
-          class="nav-link"
-          id="v-pills-settings-tab"
-          data-bs-toggle="pill"
-          data-bs-target="#v-pills-settings"
-          type="button"
-          role="tab"
-          aria-controls="v-pills-settings"
-          aria-selected="false"
-        >
-          Settings
+          Collaborators
         </button>
       </div>
       <div class="tab-content" id="v-pills-tabContent">
@@ -71,7 +59,7 @@
           id="v-pills-profile"
           role="tabpanel"
           aria-labelledby="v-pills-profile-tab"
-          tabindex="0"
+          tabindex="1"
         >
           <h4 class="mt-2">Text</h4>
         </div>
@@ -80,16 +68,7 @@
           id="v-pills-messages"
           role="tabpanel"
           aria-labelledby="v-pills-messages-tab"
-          tabindex="0"
-        >
-          <h4 class="mt-2">Text</h4>
-        </div>
-        <div
-          class="tab-pane fade"
-          id="v-pills-settings"
-          role="tabpanel"
-          aria-labelledby="v-pills-settings-tab"
-          tabindex="0"
+          tabindex="2"
         >
           <h4 class="mt-2">Text</h4>
         </div>

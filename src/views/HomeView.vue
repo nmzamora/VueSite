@@ -1,5 +1,4 @@
-<script setup>
-</script>
+<script setup></script>
 
 <template>
   <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
@@ -54,8 +53,8 @@
           <div class="carousel-caption text">
             <h1>SCO2 Power Generation</h1>
             <p>
-              Supercritical Carbon Dioxide (sCO2) Power Generation for Renewable Energy
-              Extraction. Click here for more information.
+              Supercritical Carbon Dioxide (sCO2) Power Generation for Renewable Energy Extraction.
+              Click here for more information.
             </p>
             <p><a class="btn btn-lg btn-utsa" href="#">Learn more</a></p>
           </div>
