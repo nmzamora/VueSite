@@ -2,13 +2,10 @@
 import { RouterLink } from 'vue-router'
 </script>
 <template>
-  <nav
-    class="navbar navbar-expand-lg bg-body-tertiary sticky-top nav-style"
-    data-bs-theme="light"
-  >
+  <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top nav-style" data-bs-theme="light">
     <div class="container-fluid">
       <div class="navbar-brand">
-        <a >
+        <a>
           <RouterLink to="/">
             <img
               src="http://texasenergy.utsa.edu/images/site/header_logo.png"
