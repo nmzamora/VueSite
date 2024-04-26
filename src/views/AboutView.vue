@@ -7,7 +7,7 @@ import { ref } from 'vue'
   <div class="container mt-2 mb-5">
     <BreadcrumbView :items="breadcrumbItems" />
     <div class="row">
-      <h2>About Us</h2>
+      <h2>About The Institute</h2>
       <div class="col-md-8">
         <p>
           The University of Texas at San Antonio created the Texas Sustainable Energy Research
@@ -45,7 +45,7 @@ import { ref } from 'vue'
 const breadcrumbItems = ref([{ label: 'About', to: '/about' }]) // Initialize with default breadcrumb
 const sidebarTitle = ref('About the Institute')
 const sidebarItems = ref([
-  { label: 'About', to: '/about/' },
+  { label: 'About the Institute', to: '/about/' },
   {
     label: 'Letter from the Director',
     to: '/about/letterfromthedirector'

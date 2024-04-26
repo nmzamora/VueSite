@@ -2,29 +2,34 @@
 import { RouterLink } from 'vue-router'
 </script>
 <template>
-  <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top nav-style" data-bs-theme="light">
-    <div class="container-fluid flex-nowrap">
-      <a class="navbar-brand">
-        <RouterLink to="/">
-          <img
-            src="http://texasenergy.utsa.edu/images/site/header_logo.png"
-            alt="Logo"
-            width="100%"
-            class="d-inline-block img-fluid"
-          />
-        </RouterLink>
-      </a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbarNav"
-        aria-controls="navbarNav"
-        aria-expanded="true"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
+  <nav
+    class="navbar navbar-expand-lg bg-body-tertiary sticky-top nav-style"
+    data-bs-theme="light"
+  >
+    <div class="container-fluid">
+      <div class="navbar-brand">
+        <a >
+          <RouterLink to="/">
+            <img
+              src="http://texasenergy.utsa.edu/images/site/header_logo.png"
+              alt="Logo"
+              width="100%"
+              class="d-inline-block img-fluid"
+            />
+          </RouterLink>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="true"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
 
       <div class="collapse navbar-collapse" id="navbarNav">
         <div class="navbar-nav align-items-center">

@@ -40,7 +40,7 @@ import { ref } from 'vue'
 const breadcrumbItems = ref([{ label: 'About', to: '/about' }]) // Initialize with default breadcrumb
 const sidebarTitle = ref('About the Institute')
 const sidebarItems = ref([
-  { label: 'About', to: '/about/' },
+  { label: 'About the Institute', to: '/about/' },
   {
     label: 'Letter from the Director',
     to: '/about/letterfromthedirector'
