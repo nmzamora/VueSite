@@ -27,7 +27,6 @@ import { RouterLink } from 'vue-router'
           <span class="navbar-toggler-icon"></span>
         </button>
       </div>
-
       <div class="collapse navbar-collapse" id="navbarNav">
         <div class="navbar-nav align-items-center">
           <RouterLink class="nav-link mx-2" to="/about">About</RouterLink>
