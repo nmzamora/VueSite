@@ -1,5 +1,17 @@
 <script setup>
 import { RouterLink } from 'vue-router'
+import { onMounted } from 'vue'
+
+onMounted(() => {
+  const navbarCollapse = document.querySelector('.navbar-collapse')
+  const navbarLinks = document.querySelectorAll('.navbar-nav .nav-link')
+
+  navbarLinks.forEach((link) => {
+    link.addEventListener('click', () => {
+      navbarCollapse.classList.remove('show')
+    })
+  })
+})
 </script>
 <template>
   <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top nav-style" data-bs-theme="light">
