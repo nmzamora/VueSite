@@ -4,7 +4,7 @@ import { RouterLink } from 'vue-router'
 <template>
   <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top nav-style" data-bs-theme="light">
     <div class="container-fluid">
-      <div class="navbar-brand">
+      <div class="navbar-brand" style="margin-right: 3.5rem">
         <a>
           <RouterLink to="/">
             <img
