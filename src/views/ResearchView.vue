@@ -1,6 +1,6 @@
 <template>
   <div class="container px-5 mt-2 mb-4">
-    <div class="d-flex align-items-start card container flex-row g-0 w-50 mx-auto shadow-sm border">
+    <div class="d-flex align-items-start card flex-row mx-auto shadow-sm border">
       <div
         class="nav flex-column nav-pills me-3 card-header"
         id="v-pills-tab"
@@ -44,7 +44,7 @@
           Collaborators
         </button>
       </div>
-      <div class="tab-content" id="v-pills-tabContent">
+      <div class="tab-content card-body" id="v-pills-tabContent">
         <div
           class="tab-pane fade show active"
           id="v-pills-home"

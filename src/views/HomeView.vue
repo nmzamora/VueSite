@@ -95,70 +95,83 @@
       <span class="visually-hidden">Next</span>
     </button>
   </div>
-  <div class="container">
-    <div class="container" id="icon-grid">
-      <h2 class="pb-2 border-bottom mt-1">Research Topics</h2>
-      <div
-        class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-4 row-icon-grid g-1 pt-3 rounded-top"
-      >
-        <div class="col d-flex align-items-center">
-          <i class="fa-solid fa-industry fa-3x px-3"></i>
-          <div>
-            <h5 class="fw-semibold mb-0">
-              <a class="a-utsa" href="https://www.google.com">Carbon Capture & Reutilization</a>
-            </h5>
-          </div>
-        </div>
-        <div class="col d-flex align-items-center">
-          <i class="fa-solid fa-bolt fa-3x px-3"></i>
-          <div>
-            <h5 class="fw-light mb-0 text-body-emphasis">
-              Electrification of Public Transportation
-            </h5>
-          </div>
-        </div>
-        <div class="col d-flex align-items-center">
-          <i class="fa-solid fa-lightbulb fa-3x px-3"></i>
-          <div>
-            <h5 class="fw-light mb-0 text-body-emphasis">Energy Efficiency & Conservation</h5>
-          </div>
-        </div>
-        <div class="col d-flex align-items-center">
-          <i class="fa-solid fa-droplet fa-3x px-3"></i>
-          <div>
-            <h5 class="fw-light mb-0 text-body-emphasis">Energy-Water News</h5>
-          </div>
+  <div class="container" id="icon-grid">
+    <h2 class="pb-2 border-bottom mt-1">Research Topics</h2>
+    <div
+      class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-4 row-icon-grid g-1 pt-3 rounded-top"
+    >
+      <div class="col d-flex align-items-center">
+        <i class="fa-solid fa-industry fa-3x px-3"></i>
+        <div>
+          <h5 class="fw-semibold mb-0">
+            <a class="a-utsa" href="https://www.google.com">Carbon Capture & Reutilization</a>
+          </h5>
         </div>
       </div>
-      <div
-        class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-4 row-icon-grid g-1 pt-1 pb-3 rounded-bottom"
-      >
-        <div class="col d-flex align-items-center">
-          <i class="fa-solid fa-wind fa-3x px-3"></i>
-          <div>
-            <h5 class="fw-light mb-0 text-body-emphasis">Wind Energy</h5>
-          </div>
+      <div class="col d-flex align-items-center">
+        <i class="fa-solid fa-bolt fa-3x px-3"></i>
+        <div>
+          <h5 class="fw-semibold mb-0">
+            <a class="a-utsa" href="https://www.google.com"
+              >Electrification of Public Transportation</a
+            >
+          </h5>
         </div>
-        <div class="col d-flex align-items-center">
-          <i class="fa-solid fa-car-battery fa-3x px-3"></i>
-          <div>
-            <h5 class="fw-light mb-0 text-body-emphasis">Renewable Energy Storage</h5>
-          </div>
+      </div>
+      <div class="col d-flex align-items-center">
+        <i class="fa-solid fa-lightbulb fa-3x px-3"></i>
+        <div>
+          <h5 class="fw-semibold mb-0">
+            <a class="a-utsa" href="https://www.google.com">Energy Efficiency & Conservation</a>
+          </h5>
         </div>
-        <div class="col d-flex align-items-center">
-          <i class="fa-solid fa-solar-panel fa-3x px-3"></i>
-          <div>
-            <h5 class="fw-light mb-0 text-body-emphasis">Smart Grid</h5>
-          </div>
-        </div>
-        <div class="col d-flex align-items-center">
-          <i class="fa-solid fa-sun fa-3x px-3"></i>
-          <div>
-            <h5 class="fw-light mb-0 text-body-emphasis">San Antonio Clean Energy</h5>
-          </div>
+      </div>
+      <div class="col d-flex align-items-center">
+        <i class="fa-solid fa-droplet fa-3x px-3"></i>
+        <div>
+          <h5 class="fw-semibold mb-0">
+            <a class="a-utsa" href="https://www.google.com">Energy-Water News</a>
+          </h5>
         </div>
       </div>
     </div>
+    <div
+      class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-4 row-icon-grid g-1 pt-1 pb-3 rounded-bottom"
+    >
+      <div class="col d-flex align-items-center">
+        <i class="fa-solid fa-wind fa-3x px-3"></i>
+        <div>
+          <h5 class="fw-semibold mb-0">
+            <a class="a-utsa" href="https://www.google.com">Wind Energy</a>
+          </h5>
+        </div>
+      </div>
+      <div class="col d-flex align-items-center">
+        <i class="fa-solid fa-car-battery fa-3x px-3"></i>
+        <div>
+          <h5 class="fw-semibold mb-0">
+            <a class="a-utsa" href="https://www.google.com">Renewable Energy Storage</a>
+          </h5>
+        </div>
+      </div>
+      <div class="col d-flex align-items-center">
+        <i class="fa-solid fa-solar-panel fa-3x px-3"></i>
+        <div>
+          <h5 class="fw-semibold mb-0">
+            <a class="a-utsa" href="https://www.google.com">Smart Grid</a>
+          </h5>
+        </div>
+      </div>
+      <div class="col d-flex align-items-center">
+        <i class="fa-solid fa-sun fa-3x px-3"></i>
+        <div>
+          <h5 class="fw-semibold mb-0">
+            <a class="a-utsa" href="https://www.google.com">San Antonio Clean Energy</a>
+          </h5>
+        </div>
+      </div>
+    </div>
+
     <div class="container my-5">
       <div class="row">
         <div class="col-md">

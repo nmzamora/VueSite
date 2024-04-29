@@ -8,7 +8,14 @@ import { ref } from 'vue'
     <BreadcrumbView :items="breadcrumbItems" />
     <div class="row">
       <h2>About The Institute</h2>
-      <div class="col-md-8">
+      <div class="col-md-3">
+        <img
+          src="http://texasenergy.utsa.edu/images/uploads/Lab8.jpg"
+          alt="TSERI Team"
+          class="img-fluid"
+        />
+      </div>
+      <div class="col-md-5">
         <p>
           The University of Texas at San Antonio created the Texas Sustainable Energy Research
           Institute to partner with our community and contribute to a new energy future that builds
