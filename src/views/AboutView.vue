@@ -9,11 +9,23 @@ import { ref } from 'vue'
     <div class="row">
       <h2>About The Institute</h2>
       <div class="col-md-3">
-        <img
-          src="http://texasenergy.utsa.edu/images/uploads/Lab8.jpg"
-          alt="TSERI Team"
-          class="img-fluid"
-        />
+        <Fancybox
+          :options="{
+            Carousel: {
+              infinite: false
+            }
+          }"
+        >
+          <a
+            class="p-3"
+            data-fancybox="gallery"
+            href="http://texasenergy.utsa.edu/images/uploads/Lab8.jpg"
+            width="200"
+            height="150"
+          >
+            <img src="http://texasenergy.utsa.edu/images/uploads/Lab8.jpg" class="img-fluid" />
+          </a>
+        </Fancybox>
       </div>
       <div class="col-md-5">
         <p>
