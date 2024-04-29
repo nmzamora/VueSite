@@ -9,23 +9,25 @@ import { ref } from 'vue'
     <div class="row">
       <h2>About The Institute</h2>
       <div class="col-md-3">
-        <Fancybox
-          :options="{
-            Carousel: {
-              infinite: false
-            }
-          }"
-        >
-          <a
-            class="p-3"
-            data-fancybox="gallery"
-            href="http://texasenergy.utsa.edu/images/uploads/Lab8.jpg"
-            width="200"
-            height="150"
+        <div class="container-fluid">
+          <Fancybox
+            :options="{
+              Carousel: {
+                infinite: false
+              }
+            }"
           >
-            <img src="http://texasenergy.utsa.edu/images/uploads/Lab8.jpg" class="img-fluid" />
-          </a>
-        </Fancybox>
+            <a
+              class="p-3"
+              data-fancybox="gallery"
+              href="http://texasenergy.utsa.edu/images/uploads/Lab8.jpg"
+              width="200"
+              height="150"
+            >
+              <img src="http://texasenergy.utsa.edu/images/uploads/Lab8.jpg" class="img-fluid" />
+            </a>
+          </Fancybox>
+        </div>
       </div>
       <div class="col-md-5">
         <p>
