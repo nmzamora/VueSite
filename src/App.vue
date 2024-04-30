@@ -2,6 +2,7 @@
 import { RouterView } from 'vue-router'
 import NavView from './components/NavView.vue'
 import FooterView from './components/FooterView.vue'
+import ScrollToTopView from './components/ScrollToTopView.vue'
 import { Fancybox } from '@fancyapps/ui'
 import '@fancyapps/ui/dist/fancybox/fancybox.css'
 </script>
@@ -32,6 +33,7 @@ export default {
 <template>
   <NavView />
   <RouterView />
+  <ScrollToTopView />
   <FooterView />
 </template>
 
