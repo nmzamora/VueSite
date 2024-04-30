@@ -12,6 +12,7 @@ import LetterFromTheDirectorView from '@/views/About/LetterFromTheDirectorView.v
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
+
   routes: [
     {
       path: '/',
@@ -63,10 +64,10 @@ const router = createRouter({
       name: 'contact',
       component: ContactView
     }
-  ],
-  scrollBehavior() {
-    return { x: 0, y: 0 }
-  }
+  ]
 })
-
+router.beforeEach((to, from, next) => {
+  window.scrollTo(0, 0)
+  next()
+})
 export default router
