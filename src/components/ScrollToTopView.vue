@@ -28,7 +28,7 @@ onMounted(() => {
       :class="{ visible: isVisible }"
       @click="scrollToTop"
     >
-      <i class="fas fa-chevron-up"></i>
+      <div v-if="isVisible"><i class="fa-solid fa-circle-up fa-3x"></i></div>
     </button>
   </div>
 </template>
@@ -40,10 +40,8 @@ onMounted(() => {
   right: 20px;
   border: none;
   background-color: transparent;
-  color: darkblue;
-  cursor: pointer;
+  color: #0c2340;
   padding: 15px;
-  border-radius: 80%;
   opacity: 5;
 }
 </style>
