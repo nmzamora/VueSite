@@ -7,9 +7,7 @@ onMounted(() => {
   const scrollToTopBtn = document.getElementById('scrollToTopBtn')
   window.addEventListener('scroll', () => {
     const scrollY = window.scrollY
-    if (scrollY > 50) {
-      // Adjusted scroll threshold
-      // Show button after 100px scroll
+    if (scrollY > 100) {
       isVisible.value = true
     } else {
       isVisible.value = false
@@ -25,7 +23,6 @@ onMounted(() => {
 <template>
   <div>
     <button
-      v-if="isVisible"
       id="scrollToTopBtn"
       class="scroll-to-top-btn"
       :class="{ visible: isVisible }"

@@ -40,17 +40,13 @@ onMounted(() => {
         </button>
       </div>
       <div class="collapse navbar-collapse" id="navbarNav">
-        <div class="navbar-nav align-items-center">
-          <RouterLink class="nav-link mx-2" to="/about">About</RouterLink>
-          <RouterLink class="nav-link mx-2" to="/research">Research</RouterLink>
-          <RouterLink class="nav-link mx-2" to="/studentinvolvement"
-            >Student Involvement</RouterLink
-          >
-          <RouterLink class="nav-link mx-2" to="/outreach">Outreach</RouterLink>
-          <RouterLink class="nav-link mx-2" to="/events">Events</RouterLink>
-          <RouterLink class="nav-link mx-2" to="/news">News</RouterLink>
-          <RouterLink class="nav-link mx-2" to="/contact">Contact</RouterLink>
-        </div>
+        <RouterLink class="nav-link mx-2" to="/about">About</RouterLink>
+        <RouterLink class="nav-link mx-2" to="/research">Research</RouterLink>
+        <RouterLink class="nav-link mx-2" to="/studentinvolvement">Student Involvement</RouterLink>
+        <RouterLink class="nav-link mx-2" to="/outreach">Outreach</RouterLink>
+        <RouterLink class="nav-link mx-2" to="/events">Events</RouterLink>
+        <RouterLink class="nav-link mx-2" to="/news">News</RouterLink>
+        <RouterLink class="nav-link mx-2" to="/contact">Contact</RouterLink>
       </div>
     </div>
   </nav>
