@@ -1,28 +1,21 @@
 <script setup>
-import { ref, onMounted } from 'vue'
+import { ref } from 'vue'
 
 const isVisible = ref(false)
 
-onMounted(() => {
-  const scrollToTopBtn = document.getElementById('scrollToTopBtn')
-  window.addEventListener('scroll', () => {
-    const scrollY = window.scrollY
-    if (scrollY > 20) {
-      // Show button after 100px scroll
-      isVisible.value = true
-    } else {
-      isVisible.value = false
-    }
-  })
-
-  scrollToTopBtn.addEventListener('click', () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' })
-  })
-})
+function scrollToTop() {
+  window.scrollTo({ top: 0, behavior: 'smooth' })
+}
 </script>
+
 <template>
   <div>
-    <button id="scrollToTopBtn" class="scroll-to-top-btn" v-if="isVisible">
+    <button
+      id="scrollToTopBtn"
+      class="scroll-to-top-btn"
+      :class="{ visible: isVisible }"
+      @click="scrollToTop"
+    >
       <i class="fas fa-chevron-up"></i>
     </button>
   </div>
