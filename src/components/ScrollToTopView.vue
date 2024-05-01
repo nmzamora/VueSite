@@ -28,7 +28,7 @@ onMounted(() => {
       :class="{ visible: isVisible }"
       @click="scrollToTop"
     >
-      <div v-if="isVisible"><i class="fa-solid fa-circle-up fa-3x"></i></div>
+      <div v-if="isVisible"><i class="fa-solid fa-circle-chevron-up fa-3x"></i></div>
     </button>
   </div>
 </template>
