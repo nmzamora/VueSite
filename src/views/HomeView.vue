@@ -291,13 +291,16 @@
 .row-icon-grid {
   background-color: whitesmoke;
 }
+
 .a-utsa {
   color: #d3430d;
 }
+
 .btn-utsa {
-  background-color: #0c2340;
+  background-color: #d3430d;
   color: white;
 }
+
 hr {
   border-width: 3px;
   width: 75%;
@@ -308,6 +311,7 @@ hr {
   width: 100%;
   height: 400px;
 }
+
 .card {
   align-items: center;
   background-color: #dbdee3;

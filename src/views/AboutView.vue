@@ -1,7 +1,33 @@
 <script setup>
+import { ref } from 'vue'
+
+const breadcrumbItems = ref([{ label: 'About', to: '/about' }]) // Initialize with default breadcrumb
+const sidebarTitle = ref('About the Institute')
+const sidebarItems = ref([
+  { label: 'About the Institute', to: '/about/' },
+  {
+    label: 'Letter from the Director',
+    to: '/about/letterfromthedirector'
+  }
+])
+</script>
+<script>
 import BreadcrumbView from '@/components/BreadcrumbView.vue'
 import SidebarView from '@/components/SidebarView.vue'
-import { ref } from 'vue'
+
+export default {
+  components: {
+    BreadcrumbView,
+    SidebarView
+  },
+  setup() {
+    return {
+      breadcrumbItems,
+      sidebarTitle,
+      sidebarItems
+    }
+  }
+}
 </script>
 <template>
   <div class="container mt-2 mb-5">
@@ -22,7 +48,11 @@ import { ref } from 'vue'
               data-fancybox="gallery"
               href="http://texasenergy.utsa.edu/images/uploads/Lab8.jpg"
             >
-              <img src="http://texasenergy.utsa.edu/images/uploads/Lab8.jpg" class="img-fluid" />
+              <img
+                src="http://texasenergy.utsa.edu/images/uploads/Lab8.jpg"
+                alt="group image of lab members"
+                class="img-fluid"
+              />
             </a>
           </Fancybox>
         </div>
@@ -60,28 +90,3 @@ import { ref } from 'vue'
     </div>
   </div>
 </template>
-<script>
-const breadcrumbItems = ref([{ label: 'About', to: '/about' }]) // Initialize with default breadcrumb
-const sidebarTitle = ref('About the Institute')
-const sidebarItems = ref([
-  { label: 'About the Institute', to: '/about/' },
-  {
-    label: 'Letter from the Director',
-    to: '/about/letterfromthedirector'
-  }
-])
-
-export default {
-  components: {
-    BreadcrumbView,
-    SidebarView
-  },
-  setup() {
-    return {
-      breadcrumbItems,
-      sidebarTitle,
-      sidebarItems
-    }
-  }
-}
-</script>
