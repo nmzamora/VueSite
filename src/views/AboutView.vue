@@ -18,11 +18,9 @@ import { ref } from 'vue'
             }"
           >
             <a
-              class="p-3"
+              class="img-fluid"
               data-fancybox="gallery"
               href="http://texasenergy.utsa.edu/images/uploads/Lab8.jpg"
-              width="200"
-              height="150"
             >
               <img src="http://texasenergy.utsa.edu/images/uploads/Lab8.jpg" class="img-fluid" />
             </a>
