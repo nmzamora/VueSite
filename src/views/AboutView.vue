@@ -31,8 +31,8 @@ export default {
 </script>
 <template>
   <div class="container mt-2 mb-5">
-    <BreadcrumbView :items="breadcrumbItems" />
     <div class="row">
+      <BreadcrumbView :items="breadcrumbItems" />
       <h2>About The Institute</h2>
       <div class="col-md-3">
         <div class="container-fluid">
